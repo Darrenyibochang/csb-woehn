@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO list</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Todo list</h1>
+    </header>
+    <main>
+      <section class="input-area">
+        <div class="toggle-all-button">&#10003;</div>
+        <input class="text-input" placeholder="What needs to be done?" />
+        <button class="button" id="addButton">Add</button>
+      </section>
+
+      <section>
+        <ul class="list-container">
+          <!-- 
+          <li>
+            <input type="checkbox">
+            <span class="checked">asd</span>
+            <div class="delete-icon">&#10005;</div>
+          </li>
+        -->
+          <!-- <li>
+            <input type="checkbox" />
+            <span class="checked">test</span>
+            <div class="delete-icon">&#10005;</div>
+          </li> -->
+        </ul>
+      </section>
+      <footer>
+        <div class="tasks-left-container">No task left</div>
+        <div class="tabs">
+          <div class="tab active" name="ALL">ALL</div>
+          <div class="tab" name="ACTIVE">ACTIVE</div>
+          <div class="tab" name="COMPLETE">COMPLETE</div>
+        </div>
+        <button class="button" id="clearButton">Clear all</button>
+      </footer>
+    </main>
+    <script src="scriptMVC.js"></script>
+  </body>
+</html>
